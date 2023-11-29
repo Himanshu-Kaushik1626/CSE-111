@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="x.css">
+    <title>Uni Hospital</title>
+</head>
+
+<body>
+    <header>
+        <h1>Uni Hospital</h1>
+        <nav> <a href="./login.html"><button class="button">Book Appointment</button></a>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experts">Our Experts</a></li>
+                <li><a href="#picture">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <img
+            src="https://www.partnermd.com/hubfs/Blog%20Images%20%28Optimized%29/modern-hospital-building-picture-id1312706413%20%281%29%20%281%29.jpg">
+        <p>Welcome to Uni Hospital, where you will receive exceptional healthcare. We have a highly trained staff who is
+            dedicated to ensuring your health and well-being. We provide comprehensive services and facilities to cater
+            to all your healthcare needs. Feel free to browse through our website to learn more about us and our
+            services. Flawless patient scheduling is one of the key aspects of the healthcare industry. Being able to
+            tackle patients efficiently and on time is crucial to patients’ wellbeing and to the reputation of doctors,
+            physicians or clinical establishments. No one wants to go to the dentist with a terrible toothache and dread
+            the obvious question, “Do you have an appointment?” Obviously, online medical appointment schedulers such as
+            Sagenda have become an integral element of daily patient care. Professionals use it to manage patient
+            scheduling, improve patient and staff communications, medical records and reduce no-shows.</p>
+    </section>
+    <section class="experts">
+        <h1>Our Experts</h1>
+        <div class="expert11">
+            <img src="data:image/jpeg;base64,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"
+                width="200px" height="200px">
+            <h2>Dr. Varun Gupta</h2>
+            <p>MBBS, MD, DNB ( Gastroenterology and Hepatology ) , MNAMS</p>
+            <p>Gastroenterologist Hepatologist and Therapeutic Endoscopist</p>
+        </div>
+        <div class="expert12">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy8YY6P4qqd8OjvihlolimJSqF-a9s8o1mWQ&usqp=CAU"
+                width="200px" height="200px" class="Kamal">
+            <h2>Dr. Kamal Sachdeva</h2>
+            <p>M.S ( SURGERY ) , DrNB Urology</p>
+            <p>Consultant Urologist & Kidney Transplant Surgeon</p>
+        </div>
+        <div class="expert1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjB6nz2bOk1sVJbJZCBNEKSGXNlg4gRtUF5g&usqp=CAU"
+                width="400px" height="300px" class="ruhi">>
+            <h2>Dr. Jasdeep Singh</h2>
+            <p>MBBS, DMRD, DNB Radiology</p>
+            <p>Consultant Radiologist</p>
+        </div>
+        <div class="expert1">
+            <img src="https://img.freepik.com/free-photo/doctor-with-his-arms-crossed-white-background_1368-5790.jpg?size=338&ext=jpg&ga=GA1.1.1880011253.1701043200&semt=ais"
+                width="400px" height="300px">
+            <h2>Dr. Anurag Karwal</h2>
+            <p>MBBS, DNB Radiology</p>
+            <p>Consultant Radiologist</p>
+        </div>
+        <div class="expert2">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDD2fdNDvAVSi8A3ljhPpoEeWvfMFh1IIEbV72MZlXjJsB0s0BuyWfuM3CkU4iftTzk6M&usqp=CAU">
+            <h2>Ms. Shivani Chaudhary</h2>
+            <p>M.Sc. ( Physiotheripst ) , BPT ( Lyallpur Khalsa Collage Jalandhar )</p>
+        </div>
+        <div class="expert2">
+            <img src="https://mellowplex.s3.amazonaws.com/uploads/item_media/asset/14232/Munnabhai-mbbs.jpg">
+            <h2>Dr. Munna Bhaiya</h2>
+            <p>MBBS, Specialization (Wo Nhi Pta)</p>
+        </div>
+
+    </section>
+    <section id="picture">
+        <h2>Services</h2>
+        <p>
+        <ul>
+            <li>Appoinments</li>
+            <li>Telehealth</li>
+            <li>Consultations</li>
+            <li>Specialist Refential</li>
+            <li>Prescription Management</li>
+            <li>Mental Health Counselling</li>
+            <li>Diagnostic Test</li>
+        </ul>
+        </p>
+    </section>
+
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For any further inquiries or assistance, please contact us at:</p>
+        <p>Phone: +91-123-456-789</p>
+        <p>Email: info@unihospital.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2022 Uni Hospital. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
